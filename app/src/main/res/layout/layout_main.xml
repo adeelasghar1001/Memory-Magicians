@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActMain">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TableRow
+            android:id="@+id/TableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/ib_0"
+                android:layout_width="118dp"
+                android:layout_height="118dp"
+                android:layout_margin="3dp"
+                android:background="#FF0000" />
+
+            <ImageButton
+                android:id="@+id/ib_1"
+                android:layout_width="118dp"
+                android:layout_height="118dp"
+                android:layout_margin="3dp"
+                android:background="#FF0000" />
+
+            <ImageButton
+                android:id="@+id/ib_2"
+                android:layout_width="118dp"
+                android:layout_height="118dp"
+                android:layout_margin="3dp"
+                android:background="#FF0000" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/ib_3"
+                android:layout_width="118dp"
+                android:layout_height="118dp"
+                android:layout_margin="3dp"
+                android:background="#FF0000" />
+
+            <ImageButton
+                android:id="@+id/ib_4"
+                android:layout_width="118dp"
+                android:layout_height="118dp"
+                android:layout_margin="3dp"
+                android:background="#FF0000" />
+
+            <ImageButton
+                android:id="@+id/ib_5"
+                android:layout_width="118dp"
+                android:layout_height="118dp"
+                android:layout_margin="3dp"
+                android:background="#FF0000" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/ib_6"
+                android:layout_width="118dp"
+                android:layout_height="118dp"
+                android:layout_margin="3dp"
+                android:background="#FF0000" />
+
+            <ImageButton
+                android:id="@+id/ib_7"
+                android:layout_width="118dp"
+                android:layout_height="118dp"
+                android:layout_margin="3dp"
+                android:background="#FF0000" />
+
+            <ImageButton
+                android:id="@+id/ib_8"
+                android:layout_width="118dp"
+                android:layout_height="118dp"
+                android:layout_margin="3dp"
+                android:background="#FF0000" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/ib_9"
+                android:layout_width="118dp"
+                android:layout_height="118dp"
+                android:layout_margin="3dp"
+                android:background="#FF0000" />
+
+            <ImageButton
+                android:id="@+id/ib_10"
+                android:layout_width="118dp"
+                android:layout_height="118dp"
+                android:layout_margin="3dp"
+                android:background="#FF0000" />
+
+            <ImageButton
+                android:id="@+id/ib_11"
+                android:layout_width="118dp"
+                android:layout_height="118dp"
+                android:layout_margin="3dp"
+                android:background="#FF0000" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/lbl_tries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="@font/watchword"
+        android:text="TRIES:"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl_match"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/watchword"
+        android:text="MATCHES:"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_matches"
+        android:layout_width="42dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:text="0"
+        android:textColor="@color/red"
+        android:textSize="37sp"
+        app:fontFamily="@font/watchword"
+        app:layout_constraintStart_toEndOf="@+id/lbl_match"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_tries"
+        android:layout_width="72dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="65dp"
+        android:text="0"
+        android:textColor="@color/red"
+        android:textSize="37sp"
+        app:fontFamily="@font/watchword"
+        app:layout_constraintBottom_toTopOf="@+id/btn_reset"
+        app:layout_constraintStart_toEndOf="@+id/lbl_tries"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ib_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/widget1" />
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="137dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/button_rounded"
+        android:fontFamily="@font/watchword"
+        android:text="RESET"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
